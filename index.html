@@ -8,63 +8,54 @@
 </head>
 <body class="bg-gradient-to-br from-purple-50 via-pink-50 to-white min-h-screen">
 
-  <!-- HEADER GIGANTE -->
-  <header class="bg-gradient-to-r from-purple-700 to-pink-600 text-white py-32 shadow-2xl">
+  <!-- HEADER + MENÚ -->
+  <header class="bg-gradient-to-r from-purple-700 to-pink-600 text-white py-24 shadow-2xl sticky top-0 z-50">
     <div class="max-w-7xl mx-auto text-center px-6">
-      <h1 class="text-8xl md:text-9xl font-bold mb-4">Grupo Lázaro ♥</h1>
-      <p class="text-5xl md:text-7xl">Esclerosis Múltiple Santa Fe</p>
+      <h1 class="text-7xl md:text-9xl font-bold mb-6">Grupo Lázaro ♥</h1>
+      <p class="text-4xl md:text-6xl mb-10">Esclerosis Múltiple Santa Fe</p>
+      <nav class="flex flex-wrap justify-center gap-8 md:gap-16 text-3xl md:text-5xl font-bold">
+        <a href="index.html" class="hover:text-pink-200">Inicio</a>
+        <a href="testimonios.html" class="hover:text-pink-200">Testimonios</a>
+        <a href="apoyo.html" class="hover:text-pink-200">Apoyo</a>
+        <a href="noticias.html" class="hover:text-pink-200">Noticias</a>
+        <a href="contacto.html" class="hover:text-pink-200">Contacto / Donar</a>
+      </nav>
     </div>
   </header>
 
-  <!-- QUIÉNES SOMOS -->
-  <section class="py-24 text-center px-6">
-    <h2 class="text-6xl md:text-8xl font-bold text-purple-800 mb-12">
+  <!-- SECCIÓN INICIO -->
+  <section class="py-32 text-center px-6">
+    <h2 class="text-6xl md:text-8xl font-bold text-purple-800 mb-16">
       Quiénes somos y por qué existimos
     </h2>
-    <p class="text-3xl md:text-5xl text-gray-700 max-w-6xl mx-auto leading-relaxed">
+    <p class="text-3xl md:text-5xl text-gray-700 max-w-6xl mx-auto leading-relaxed mb-20">
       Somos un grupo de personas con EM y familiares que nos juntamos todos los domingos en Santa Fe.<br>
       No somos una ONG, somos gente real que se abraza, se ríe, llora y se ayuda mutuamente.<br><br>
       Queremos cambiar la mirada de la sociedad: no somos "enfermos", somos guerreros con ganas de vivir a pleno.
     </p>
-  </section>
 
-  <!-- 4 BOTONES GIGANTES Y FUNCIONALES -->
-  <section class="grid md:grid-cols-2 lg:grid-cols-4 gap-16 max-w-7xl mx-auto px-6 py-24">
-    <a href="mailto:matii.toorres.06@gmail.com?subject=Testimonio%20-%20Grupo%20Lázaro&body=Hola%20Mati,%20quiero%20contar%20mi%20historia..." 
-       class="bg-purple-700 hover:bg-purple-900 text-white p-20 rounded-3xl shadow-2xl text-center transform hover:scale-110 transition duration-300 block">
-      <h3 class="text-6xl font-bold">Testimonios</h3>
-      <p class="text-3xl mt-6">Contá tu historia ♥</p>
-    </a>
+    <!-- 4 BOTONES GIGANTES -->
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-16 max-w-7xl mx-auto px-6">
+      <a href="testimonios.html" class="bg-purple-700 hover:bg-purple-900 text-white p-20 rounded-3xl shadow-2xl text-center transform hover:scale-110 transition duration-300">
+        <h3 class="text-6xl font-bold">Testimonios</h3>
+        <p class="text-3xl mt-6">Contá tu historia ♥</p>
+      </a>
 
-    <a href="mailto:matii.toorres.06@gmail.com?subject=Apoyo%20-%20Grupo%20Lázaro&body=Hola%20Mati,%20te%20dejo%20mis%20palabras%20de%20fuerza..."
-       class="bg-pink-700 hover:bg-pink-900 text-white p-20 rounded-3xl shadow-2xl text-center transform hover:scale-110 transition duration-300 block">
-      <h3 class="text-6xl font-bold">Apoyo</h3>
-      <p class="text-3xl mt-6">Palabras de fuerza</p>
-    </a>
+      <a href="apoyo.html" class="bg-pink-700 hover:bg-pink-900 text-white p-20 rounded-3xl shadow-2xl text-center transform hover:scale-110 transition duration-300">
+        <h3 class="text-6xl font-bold">Apoyo</h3>
+        <p class="text-3xl mt-6">Palabras de fuerza</p>
+      </a>
 
-    <a href="mailto:matii.toorres.06@gmail.com?subject=Noticia%20o%20evento&body=Hola%20Mati,%20te%20cuento%20sobre..."
-       class="bg-blue-700 hover:bg-blue-900 text-white p-20 rounded-3xl shadow-2xl text-center transform hover:scale-110 transition duration-300 block">
-      <h3 class="text-6xl font-bold">Noticias</h3>
-      <p class="text-3xl mt-6">Eventos y novedades</p>
-    </a>
+      <a href="noticias.html" class="bg-blue-700 hover:bg-blue-900 text-white p-20 rounded-3xl shadow-2xl text-center transform hover:scale-110 transition duration-300">
+        <h3 class="text-6xl font-bold">Noticias</h3>
+        <p class="text-3xl mt-6">Eventos y novedades</p>
+      </a>
 
-    <div class="bg-green-700 text-white p-20 rounded-3xl shadow-2xl text-center">
-      <h3 class="text-6xl font-bold">Contacto / Donar</h3>
-      <p class="text-3xl mt-6 mb-8">Alias: matii.n.t.6</p>
-      <a href="https://link.mercadopago.com.ar/grupolazaro" target="_blank"
-         class="inline-block bg-green-600 hover:bg-green-800 text-white text-5xl font-bold px-20 py-10 rounded-full shadow-2xl transform hover:scale-110 transition duration-300">
-        Donar ahora ♥
+      <a href="contacto.html" class="bg-green-700 hover:bg-green-900 text-white p-20 rounded-3xl shadow-2xl text-center transform hover:scale-110 transition duration-300">
+        <h3 class="text-6xl font-bold">Contacto / Donar</h3>
+        <p class="text-3xl mt-6">Alias: matii.n.t.6</p>
       </a>
     </div>
-  </section>
-
-  <!-- DONACIÓN EXTRA GIGANTE -->
-  <section class="py-32 text-center bg-green-50">
-    <p class="text-7xl md:text-9xl font-bold text-green-700 mb-16">Alias → matii.n.t.6</p>
-    <a href="https://link.mercadopago.com.ar/grupolazaro" target="_blank"
-       class="inline-block bg-green-600 hover:bg-green-800 text-white text-8xl font-bold px-48 py-24 rounded-full shadow-2xl transform hover:scale-110 transition">
-      DONAR AHORA ♥
-    </a>
   </section>
 
   <!-- FOOTER -->
